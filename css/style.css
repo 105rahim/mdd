@@ -1,0 +1,302 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 576px) {
+    .navbar{
+        text-align: center;
+    }
+    .navbar-brand img{
+        margin-left: 4rem;
+    }
+    #about img{
+        margin-left: 5rem;
+    }
+    #about h4{
+        text-align: center;
+    }
+    #about p{
+        text-align: center;
+        text-align: justify;
+    }
+    
+    #about .content{
+        
+        margin-left: 4rem;
+    }
+    #contact p{
+        text-align: center;
+        text-align: justify;
+    }
+    
+   #menu .card{
+    width: 300px;
+    margin-top: 2rem;
+   }
+   #product .card{
+    width: 300px;
+   }
+   #review .card{
+    width: 300px;
+   }
+
+
+}
+
+
+
+
+#hero{
+    background-image: url('../image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+}
+.navbar-brand img{
+    width: 120px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+.nav-item{
+    padding: 8px;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 2rem;
+   
+}
+.nav-link:hover{
+    background-color: cornflowerblue;
+}
+form{
+    margin-left: 2rem;
+}
+.form-control{
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin-right: -30px;
+}
+#hero .btn{
+    border: 1px solid white;
+    border-radius: 2rem;
+}
+#about{
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+#about img{
+    height: 400px;
+    width: 300px;
+}
+#about h4{
+    margin-top: 3rem;
+}
+#about p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+#menu{
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+#menu .card{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    opacity: 0.4;
+    transition: 3s;
+    margin-top: 2rem;
+}
+#menu .card:hover{
+  opacity: 1.5;
+  transform: scaleY(1.1);
+}
+#menu .card img{
+    height: 300px;
+}
+#menu .card .card-body{
+    text-align: center;
+}
+#menu .card button{
+    width: 4rem;
+    height: 2rem;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2rem;
+   
+    transition: 2s;
+}
+#menu .card button:hover{
+    transform: scale(1.2);
+}
+#product{
+    margin-top: 2rem;
+    height: 100%;
+    background-color: black;
+    
+}
+#product .card{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-top: 2rem;
+}
+#product .card:hover{
+    box-shadow: 5px 8px 8px white;
+}
+
+#product .card img{
+    height: 200px;
+}
+#product .card .card-body{
+    text-align: center;
+}
+#product .card .card-body button{
+    width: 4rem;
+    height: 2rem;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2rem;
+   
+    transition: 2s;
+}
+#product .card .card-body button:hover{
+    background-color: rgb(13, 1, 1);
+    
+    border: 2px solid rgb(248, 241, 241);
+}
+#review{
+    margin-top: 2rem;
+    height: 100%;
+    background-color: black;
+}
+#review .card{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-top: 2rem;
+}
+#review .card:hover{
+    box-shadow: 5px 8px 5px white;
+}
+#review .card img{
+    height: 250px;
+    
+    
+}
+#review .card .card-body{
+    text-align: center;
+}
+#review .card .card-body button{
+    width: 120px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4rem;
+}
+#review .card .card-body button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+}
+#contact{
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+#contact .card{
+    background-color: darkcyan;
+}
+#contact .content{
+    margin-top: 5rem;
+}
+#contact .form-control2{
+     height: 60px;
+     width: 400px;
+     padding-bottom: 40px;
+    
+     margin-left: 2px;
+ }
+#contact .form-control1{
+     height: 200px;
+     width: 400px;
+     text-align: left;
+     font-weight: 60px;
+     padding-bottom: 180px;
+    
+ }
+
+#contact button{
+     height: 80px;
+     width: 200px;
+     background-color: rgb(58, 137, 227);
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-style: italic;
+     color: white;
+     border: none;
+     outline: none;
+     margin-top: 1rem;
+ }
+ .text{
+     margin-left: 3.5rem;
+ }
+ .icon{
+     font-size: 20px;
+     margin-right: 1rem;
+     border: 1px solid white;
+     border-radius: 3rem;
+     padding: 8px;
+     background-color: white;
+     color: crimson;
+ }
+ .icon:hover{
+     background-color: rgb(18, 158, 213);
+ }
+ #footer{
+     margin-top: 3rem;
+     height: 100%;
+     background-color: black;
+     color: white;
+ }
+ #footer ul{
+     list-style-type: none;
+     display: flex;
+ }
+ #footer ul li{
+     padding: 4px;
+ }
+ #footer ul li a{
+     text-decoration: none;
+     color: white;
+     border: 1px solid white;
+ }
+ .social-link a{
+     color: white;
+ }
+ 
+  .social-link i{
+     font-size: 40px;
+     padding: 8px;
+  }
+  .social-link i:hover{
+     color: rgba(154, 247, 68, 0.354);
+  }
+  .bi-arrow-up-circle{
+     font-size: 30px;
+     font-weight: bold;
+     color: white;
+     float: right;
+  }
+
+ 
